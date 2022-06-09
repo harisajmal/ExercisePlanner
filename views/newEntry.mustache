@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+{{>header}}
+</head>
+<body class="container">
+    <div class="topnav">
+        <a class="active" href="/">Home</a>
+        <a href="/training">Training Goals</a>
+        <a href="/new">Add Goals</a>
+        <a href="about.html">About us</a>
+    </div>
+    <section id="headercontainer">
+        <div class="logo">
+            <a href="index.html"> <img src="./pics/logo.png" alt="logo"> </a>
+        </div>
+        <h1> Add Training Goals </h1>
+    </section>
+<form method="post" role="form">
+ <div class="form-group">
+    <label for="exercise">Exercise</label>
+    <input type="text" class="form-control" id="name"
+    name="exercise" placeholder="Write exercise name" required>
+ </div>
+ <div class="form-group">
+    <label for="level">Level</label>
+    <input type="text" class="form-control" id="subject"
+    name="level" placeholder="Enter level here"
+required>
+ </div>
+  <div class="form-group">
+    <label for="exercise">Date set</label>
+    <input type="text" class="form-control" id="name"
+    name="dateset" placeholder="Write exercise date" required>
+ </div>
+ <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="subject"
+    name="name" placeholder="Enter name here"
+required>
+</textarea>
+ </div>
+ <div class="form-group">
+    <input type="submit" value="Add Goal" class="btn btn-primary">
+ </div>
+
+</form>
+</body>
+</html>

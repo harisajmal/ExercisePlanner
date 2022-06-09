@@ -1,0 +1,292 @@
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    justify-content: space-between;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav input[type=text] {
+    border: 1px solid #ccc;
+}
+
+header {
+    background-color: #0b61aa;
+}
+
+#headercontainer {
+    background-image: url(../images/banner.jpg);
+    background-color: #4793d0;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    font-size: 3.5em;
+    margin-bottom: .3em;
+    border: 3px solid #000829;
+    background-size: cover;
+    height: 500px;
+}
+
+h1 {
+    color: #001e6f;
+}
+
+h7 {
+    color: #001e6f;
+}
+
+h3 {
+    color: red;
+}
+
+div.logo {
+    margin-top: .3em;
+}
+
+div.logo {
+    text-align: center;
+    margin-top: .3em;
+}
+
+#top-container {
+    display: flex;
+}
+
+#Adult-container {
+    display: flex;
+}
+
+#Racing-container {
+    display: flex;
+}
+
+#Map-container {
+    display: flex;
+}
+
+#Service-container {
+    display: flex;
+}
+
+#labour-container {
+    display: flex;
+}
+
+.top-items {
+    background-color: #c6ddf0;
+    color: #3e4b67;
+    font-family: tahoma;
+    font-size: .9em;
+    padding: 1em;
+    border: 2px solid #a4becc;
+    text-align: center;
+    flex: 1;
+}
+
+.top-items h3 {
+    color: #7b0009;
+    font-size: 50.0;
+}
+
+.top-items p {
+    margin-top: 1em;
+}
+
+.top-items h4 {}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-tripadvisor {
+    background: #0bcc56;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #655202;
+    color: white;
+}
+
+.fa-yahoo {
+    background: #1b1bb4;
+    color: white;
+}
+
+.fa-reddit {
+    background: #ed0707;
+    color: white;
+}
+
+h5 {
+    font-size: 3em;
+}
+
+form {
+    width: 40%;
+    margin: 0 30%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+input [type="text"] {
+    width: 130px;
+    padding: 5px;
+}
+
+label {
+    width: 70px;
+    text-align: right;
+    display: inline-block;
+    margin: 10px 20px 10px 0px;
+    font-family: "veranda";
+    font-size: .8em;
+    color: navy;
+}
+
+.bottom-items {
+    background-color: #4e99d6;
+    color: #3e4b67;
+    font-family: tahoma;
+    font-size: .9em;
+    padding: 1em;
+    border: 2px solid #a4becc;
+    text-align: center;
+    flex: 1;
+}
+
+.bottom-items h5 {
+    color: #07005d;
+    font-size: 20.0;
+}
+
+.bottom-items p {
+    margin-top: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+    #headercontainer {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+    #headercontainer img {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .topnav a {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    #top-container {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    #Adult-container {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    #Racing-container {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    #Service-container {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    #labour-container {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    #labour-container img {}
+    .top-items iframe {
+        width: 30%;
+        height: 250px;
+        margin-right: 380px;
+    }
+    .top-items {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .fa {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    h3 {
+        margin-right: 380px;
+    }
+    /*MOBILE MEDIA QUERIES*/
+    @media only screen and (max-width: 430px) {
+        #headercontainer {
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            display: flex;
+        }
+        #botttom-container {
+            text-align: center;
+        }
+        #top-container {
+            flex-direction: column;
+        }
+        .top-items img {
+            width: 30%;
+        }
+    }
